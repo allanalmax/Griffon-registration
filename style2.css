@@ -1,0 +1,134 @@
+.body{
+    background-color: darkslategray;
+    text-align: center;
+    display: block;
+}
+#title{
+    text-align: center;
+    color: red;
+    font-family: cursive; 
+}
+#outer-form{
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 20px;
+    background-color:tomato;
+    width: 80%;
+    border-radius: 5px;
+}
+#description{
+    text-align: center;
+    display: block;
+    font-size: 40px;
+}
+#survey-form{
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+.rowtab{
+    display: block;
+    text-align: center;
+}
+.labels{
+    display: inline-block;
+    text-align: right;
+    padding: 5px;
+    vertical-align: middle;
+    width: 40%;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.right-tab{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 48%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+}
+.input-field{
+    height: 25px;
+    width: 80%;
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 5px;
+}
+#name{
+    text-align: start;
+    text-transform: capitalize;
+    word-spacing: normal;
+}
+#email{
+    text-transform: none;
+    text-align: start;
+}
+#number{
+    text-transform: none;
+    text-align: start;
+}
+#name-label{
+    text-transform: none;
+    text-align: start;
+}
+#email-label{
+    text-transform: none;
+    text-align: start;
+}
+#number-label{
+    text-transform: none;
+    text-align: start;
+}
+.dropdown{
+    height: 40px;
+    width: 80%;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 0px;
+}
+#dropdown{
+    font-style: italic;
+    word-spacing: normal;
+    text-transform: lowercase;
+    align-items: center;
+}
+.lists{
+    list-style-type: none;
+    display: block;
+}
+.radio{
+    position: relative;
+    right: 40px;
+    display: block;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.field-expertise{
+    float: left;
+    margin: 3px 5px 3px 3px;
+}
+.checkbox{
+    position: relative;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    right: 40px;
+}
+#expectations{
+    height: 40px;
+    width: 80%;
+    resize: vertical;
+}
+#submit{
+    background-color: red;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style2.css">   
+</head>
+<body class="body">
+    <h1 id="title">Griffon.UG Application</h1>
+    <div id="outer-form">
+        <p id="description">Tell us alittle about yourself.</p>
+        <form id="survey-form">
+            <div class="rowtab">
+                <div class="labels">
+                    <label id="name-label" for="name"> *Name:</label> 
+                </div>
+                <div class="right-tab">
+                    <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+                </div>
+            </div>
+            <div class="rowtab">
+                <div class="labels">
+                    <label id="email-label" for="email">*Email:</label>
+                </div>
+                <div class="right-tab">
+                    <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+                </div>
+            </div>
+            <div class="rowtab">
+                <div class="labels">
+                    <label id="age-label" for="age"> *Age:</label>
+                </div>
+                <div class="right-tab">
+                    <input type="number" name="age" id="number" min="15" max="30" class="input-field" placeholder="Age"> 
+                </div>
+            </div>
+            <div class="rowtab">
+                <div class="labels">
+                    <label id="contact-label" for="contact">*Contact:</label> 
+                </div>
+                <div class="right-tab">
+                    <input type="contact" name="contact" class="input-field" placeholder="Contact">
+                </div>
+            </div>
+            <div class="rowtab">
+                <div class="labels">
+                    <label for="currentpos">Your current position</label>
+                </div>
+                <div class="right-tab">
+                    <select id="dropdown" name="currentpos" class="dropdown">
+                        <option value="select">select an option</option>
+                        <option value="student">high school student</option>
+                        <option value="student">campus student</option>
+                        <option value="job">part time job</option>
+                        <option value="other">other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="rowtab">
+                <div class="labels">
+                    <label for="field-expertise">Which field are you farmiliar with?</label>
+                </div>
+                <div class="right-tab">
+                    <ul class="lists">
+                        <li class="radio">
+                            <label>
+                                    Photography
+                                    <input name="radio-buttons" value="1" type="radio" class="field-expertise">
+                            </label>
+                        </li>
+                        <li class="radio">
+                            <label>
+                                Fashion
+                                <input name="radio-buttons" value="2" type="radio" class="field-expertise">
+                            </label>
+                        </li>
+                        <li class="radio">
+                            <label>
+                                Both
+                                <input name="radio-buttons" value="3" type="radio" class="field-expertise">
+                            </label>
+                        </li>
+                        <li class="radio">
+                            <label>
+                                Not sure
+                                <input name="radio-buttons" value="4" type="radio" class="field-expertise">
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rowtab">
+                <div class="labels">
+                    <label for="choice">
+                        Is this your first time in this field of work? 
+                    </label>
+                </div>
+                <div class="right-tab">
+                    <ul id="choice" class="lists">
+                        <li class="checkbox">
+                            <label>
+                                <input name="choice" value="1" type="checkbox" class="field-expertise">
+                                Yes
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="choice" value="2" type="checkbox" class="field-expertise">
+                                No
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rowtab">
+                    <div class="labels">
+                        <label for="expectations">Any future expectations from Griffon.UG?</label>
+                    </div>
+                    <div class="right-tab">
+                        <textarea id="expectations" class="input-field" name="expectations" placeholder="Enter short text here..."></textarea>
+                    </div>
+                </div>
+            </div>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>   
+</body>
+</html>
